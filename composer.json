@@ -1,0 +1,25 @@
+{
+    "name": "vivoka/bump-version",
+    "description": "Version bumper Laravel",
+    "require": {
+        "laravel/framework": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Vivoka",
+            "email": "developper@vivoka.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vivoka\\BumpVersion\\BumpVersionServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vivoka\\BumpVersion\\": "src/"
+        }
+    }
+}
